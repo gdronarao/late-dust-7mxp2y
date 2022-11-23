@@ -1,0 +1,108 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "pip install -r requirements.txt",
+      "command": "pip install -r requirements.txt"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "python main.py",
+      "runAtStart": true,
+      "restartOn": {
+        "files": [
+          "main.py"
+        ],
+        "branch": false,
+        "resume": false
+      }
+    },
+    "install-dependencies": {
+      "name": "Installing Dependencies",
+      "command": "pip install -r requirements.txt",
+      "restartOn": {
+        "files": [
+          "requirements.txt"
+        ],
+        "branch": false,
+        "resume": false
+      }
+    },
+    "python patient.py": {
+      "name": "python patient.py",
+      "command": "python patient.py"
+    },
+    "python calculator.py": {
+      "name": "python calculator.py",
+      "command": "python calculator.py"
+    },
+    "python newexcersice.py": {
+      "name": "python newexcersice.py",
+      "command": "python newexcersice.py"
+    },
+    "python names.py": {
+      "name": "python names.py",
+      "command": "python names.py"
+    },
+    "python calculator2.py": {
+      "name": "python calculator2.py",
+      "command": "python calculator2.py"
+    },
+    "normaltab.py": {
+      "name": "normaltab.py",
+      "command": "normaltab.py"
+    },
+    "python normaltab.py": {
+      "name": "python normaltab.py",
+      "command": "python normaltab.py"
+    },
+    "course.py": {
+      "name": "course.py",
+      "command": "course.py"
+    },
+    "python course.py": {
+      "name": "python course.py",
+      "command": "python course.py"
+    },
+    "python practice.py": {
+      "name": "python practice.py",
+      "command": "python practice.py"
+    },
+    "python weight check.py": {
+      "name": "python weight check.py",
+      "command": "python weight check.py"
+    },
+    "python weight.py": {
+      "name": "python weight.py",
+      "command": "python weight.py"
+    },
+    "python loop.py": {
+      "name": "python loop.py",
+      "command": "python loop.py"
+    },
+    "python list.py": {
+      "name": "python list.py",
+      "command": "python list.py"
+    },
+    "python for.py": {
+      "name": "python for.py",
+      "command": "python for.py"
+    },
+    "python range.py": {
+      "name": "python range.py",
+      "command": "python range.py"
+    },
+    "rnage.py": {
+      "name": "rnage.py",
+      "command": "rnage.py"
+    },
+    "python rnage.py": {
+      "name": "python rnage.py",
+      "command": "python rnage.py"
+    }
+  }
+}
