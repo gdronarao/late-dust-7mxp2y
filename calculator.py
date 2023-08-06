@@ -1,4 +1,4 @@
-temparature = 24 
+temparature = 25 
 if temparature > 30:
     print("it's a hot day")
     print("drink plenty of water")
