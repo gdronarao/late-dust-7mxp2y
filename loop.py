@@ -1,4 +1,5 @@
-i = 1
-while i <= 10:
-    print(i * '%')
-    i = i + 1
+i = input("enter a number")
+I = 34
+while int(I > 0) and (I < 80):
+    I = I + 1
+    print(i)

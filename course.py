@@ -1,4 +1,4 @@
-DRONA = ('pandi')
+DRONA = ('doctor strange')
 print("drona is a " + DRONA)
-arjun = ('iron man')
+arjun = ('moob swami')
 print("arjun is a " + arjun)
